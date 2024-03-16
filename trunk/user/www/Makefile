@@ -9,7 +9,7 @@ include $(ROOTDIR)/user/shared/boards.mk
 PROJECT_HOME_URL="https:\/\/bitbucket.org\/padavan\/rt-n56u\/"
 PROJECT_HOME_URL_MOD="https:\/\/github.com\/hanwckf\/rt-n56u\/"
 
-LABEL_COPYRIGHT_TEXT='© 2011-2024 <a href="https:\/\/github.com\/glunefish\/Padavan-3.4" target="blank">Padavan<\/a> \&  <a href="https:\/\/github.com\/glunefish\/" target="blank">Glunefish<\/a> \& by <a href="https:\/\/space.bilibili.com\/8607059" target="blank">黄焖咕噜鱼<\/a> \  <br><center><a href="https:\/\/dwurl.cn\/1UG8yB" target="blank">免备案服务器推荐<\/a><\/center> '
+LABEL_COPYRIGHT_TEXT='© 2011-2024 <a href="https:\/\/github.com\/glunefish\/Padavan-3.4" target="blank">Padavan<\/a> \&  <a href="https:\/\/github.com\/glunefish\/" target="blank">Glunefish<\/a> \& by <a href="https:\/\/space.bilibili.com\/8607059" target="blank">黄焖咕噜鱼<\/a>'
 
 BOARD_PATTERN=s/ZVMODELVZ/$(CONFIG_FIRMWARE_PRODUCT_ID)/g
 COPYR_PATTERN=s/ZVCOPYRVZ/$(LABEL_COPYRIGHT_TEXT)/g
